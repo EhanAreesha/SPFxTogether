@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "holidy-event-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/holidyEvent/HolidyEventWebPart.js",
+          "manifest": "./src/webparts/holidyEvent/HolidyEventWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HolidyEventWebPartStrings": "lib/webparts/holidyEvent/loc/{locale}.js"
+  }
+}
